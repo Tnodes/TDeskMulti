@@ -1,22 +1,49 @@
-# TDeskMulti [>ENGLISH README<](https://github.com/peppelg/TDeskMulti/blob/master/README_EN.md) <img src="https://raw.githubusercontent.com/peppelg/TDeskMulti/master/icon.png" width="30" height="30" />
-Usa più account con Telegram Desktop.
+## TDeskMulti 🚀
 
-![TDeskMulti](https://i.imgur.com/IIbqieu.png)
-![Telegram downloader](https://i.imgur.com/1tDURVk.png)
+TDeskMulti is a tool to manage multiple Telegram Desktop accounts from a single interface.
 
-Feature:
----------
-- interfaccia grafika facile da utilizzare
-- funziona su Windows e Linux
-- puoi passare facilmente dalla versione stable di telegram desktop a quella alpha
+### Features ✨
 
-Installazione:
---------------
-- [Release](https://github.com/peppelg/TDeskMulti/releases)
+- Add, edit, delete, and start multiple Telegram accounts.
+- Download and manage Telegram Desktop versions.
+- User-friendly interface built with PySimpleGUI.
+- Support Linux, Windows only
 
-Per installarlo manualmente clona il repository (`git clone https://github.com/peppelg/TDeskMulti`), installa le dipendenze: `pip install -r requirements.txt` e
-avvia TDeskMulti (`python TDeskMulti.py`).
+### Requirements 🛠️
 
-Puoi specificare l'argomento `--dir` per cambiare la cartella dove TDeskmulti salverà i tuoi account Telegram (utile in dualboot).
+- Python 3.6+
 
-**TDeskMulti funziona solo su python 3.x**
+### Installation 💻
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/Tnodes/TDeskMulti
+    cd TDeskMulti
+    ```
+
+2. Install the required packages:
+    ```
+    pip install -r requirements.txt
+    ```
+
+### Usage 📖
+
+1. Run the script:
+    ```
+    python TDeskMulti.py
+    ```
+    OR
+    ```
+    python TDeskMulti.py --dir <directory_path>
+    ```
+    
+> You can use the `--dir` to change the directory where TDeskmulti will store your Telegram accounts.
+
+2. Follow the UI prompts to add, edit, or delete accounts.
+
+## ⚙️ Windows Version
+[Download Portabel Version](https://github.com/Tnodes/TDeskMulti/releases)
+
+## 🔔 Telegram
+Join to my telegram channel:
+https://t.me/tdropid
