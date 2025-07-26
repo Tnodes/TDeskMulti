@@ -41,6 +41,10 @@ TDeskMulti is a tool to manage multiple Telegram Desktop accounts from a single 
 
 2. Follow the UI prompts to add, edit, or delete accounts.
 
+
+## ⚠️ License issue
+If you have problem with license issue, please downgrade version of pysimplegui read [here](https://github.com/VincentZyu233/PySimpleGUI-Legacy?tab=readme-ov-file)
+
 ## ⚙️ Windows Version
 [Download Portabel Version](https://github.com/Tnodes/TDeskMulti/releases)
 
