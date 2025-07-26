@@ -1,55 +1,22 @@
-## TDeskMulti 🚀
+# TDeskMulti [>ENGLISH README<](https://github.com/peppelg/TDeskMulti/blob/master/README_EN.md) <img src="https://raw.githubusercontent.com/peppelg/TDeskMulti/master/icon.png" width="30" height="30" />
+Usa più account con Telegram Desktop.
 
-TDeskMulti is a tool to manage multiple Telegram Desktop accounts from a single interface.
+![TDeskMulti](https://i.imgur.com/IIbqieu.png)
+![Telegram downloader](https://i.imgur.com/1tDURVk.png)
 
-### Features ✨
+Feature:
+---------
+- interfaccia grafika facile da utilizzare
+- funziona su Windows e Linux
+- puoi passare facilmente dalla versione stable di telegram desktop a quella alpha
 
-- Add, edit, delete, and start multiple Telegram accounts.
-- Download and manage Telegram Desktop versions (Stable and Alpha).
-- User-friendly interface built with PySimpleGUI.
-- Kill/close all running Telegram Desktop instances with one click.
-- Supports Linux and Windows
-- Custom storage directory for accounts via `--dir` argument.
+Installazione:
+--------------
+- [Release](https://github.com/peppelg/TDeskMulti/releases)
 
-### Requirements 🛠️
+Per installarlo manualmente clona il repository (`git clone https://github.com/peppelg/TDeskMulti`), installa le dipendenze: `pip install -r requirements.txt` e
+avvia TDeskMulti (`python TDeskMulti.py`).
 
-- Python 3.6+
+Puoi specificare l'argomento `--dir` per cambiare la cartella dove TDeskmulti salverà i tuoi account Telegram (utile in dualboot).
 
-### Installation 💻
-
-1. Clone the repository:
-    ```
-    git clone https://github.com/Tnodes/TDeskMulti
-    cd TDeskMulti
-    ```
-
-2. Install the required packages:
-    ```
-    pip install -r requirements.txt
-    ```
-
-### Usage 📖
-
-1. Run the script:
-    ```
-    python TDeskMulti.py
-    ```
-    OR
-    ```
-    python TDeskMulti.py --dir <directory_path>
-    ```
-    
-> You can use the `--dir` to change the directory where TDeskmulti will store your Telegram accounts.
-
-2. Follow the UI prompts to add, edit, or delete accounts.
-
-
-## ⚠️ License issue
-If you have a problem with license issues, please downgrade the version of PySimpleGUI. Read [here](https://github.com/VincentZyu233/PySimpleGUI-Legacy?tab=readme-ov-file)
-
-## ⚙️ Windows Version
-[Download Portable Version](https://github.com/Tnodes/TDeskMulti/releases)
-
-## 🔔 Telegram
-Join my Telegram channel:
-https://t.me/tdropid
+**TDeskMulti funziona solo su python 3.x**
